@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #eeb6e4;
+
+  }
+.Assessment_1{text-align:center;
+    font-size:30px;}
+
+
+
+ .week2{
+    text-align:justify;
+    text-decoration:overline;
+    border-style: outset;
+    border-width: 2px;
+    border-color: #000000;
+    border-radius: 5px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-right: 80px;
+    margin-left: 80px;
+    font-family:"Kefa", Times, serif;
+    text-indent: 50px;
+    text-align:justify;
+    letter-spacing:3px;
+    background-color:#f8f7e6;
+    padding: 40px;
+    font-size:15px;
+    text-shadow: 0 0 3px #eeb6e4}
+
+.week3{text-align:justify;
+    text-decoration:overline;
+    border-style: outset;
+    border-width: 2px;
+    border-color: #000000;
+    border-radius: 5px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-right: 80px;
+    margin-left: 80px;
+    font-family:"Kefa", Times, serif;
+    text-indent: 50px;
+    text-align:justify;
+    letter-spacing:3px;
+    background-color:#f8f7e6;
+    padding: 40px;
+    font-size:15px;
+    text-shadow: 0 0 3px #eeb6e4}
+    

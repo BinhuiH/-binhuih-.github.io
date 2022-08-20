@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+ 
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f6fabd;
+}
+ 
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #ffbeea;
+  border-radius: 25px;
+  
+}
+ 
+.header h1 {
+  font-size: 50px;
+  font-family:"Kefa", Times, serif;
+  
+}
+ 
+.leftcolumn {   
+  float: left;
+  width: 50%;
+  background-color: #ddffd0;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px #d7d7d7;
+  margin-top: 15px;
+  font-family:"Kefa", Times, serif;
+}
+ 
+.rightcolumn {
+  float: left;
+  width: 50%;
+  background-color: #d0ffff;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px #d7d7d7;
+  margin-top: 15px;
+  font-family:"Kefa", Times, serif;
+}
+ 
+/* photo */
+.fakeimg {
+  background-color: #ffd0d9;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  border-radius: 25px;
+  background-image: linear-gradient(to right, #fffdd0, #f8f9d8,#f1f5e0, #e9f1e8, #fbedee, #fff3f4 ,#ffdee9);
+  font-family:"Kefa", Times, serif;
+}
+ 
+/* white */
+.card {
+  background-color: white;
+  padding: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 25px;
+  font-family:"Kefa", Times, serif;
+}
+ 
+/* 列后面清除浮动 */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  font-family:"Kefa", Times, serif;
+}
+ 
+/* 底部 */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(94, 68, 68);
+  margin-top: 15px;
+  border-radius: 25px;
+    font-family:"Kefa", Times, serif;
+}
+ 
+/* 响应式布局 - 屏幕尺寸小于 800px 时，两列布局改为上下布局 */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+ 
+/* 响应式布局 -屏幕尺寸小于 400px 时，导航等布局改为上下布局 */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}

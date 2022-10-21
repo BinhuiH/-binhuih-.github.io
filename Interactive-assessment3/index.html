@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <!-- Bubble paper  -->
+    <!-- Create a container -->
+    <div class="game-wrapper">
+      <div class="count">Count:<span id="count"></span></div>
+      <div class="bubble-wrapper" id="bubble-list">
+        <!-- Create a bubble wrap -->
+        <div class="bubble-row"></div>
+      </div>
+      <div class="btn-group">
+        <button class="btn" id="undo">Undo</button>
+        <button class="btn" id="redo">Redo</button>
+        <button class="btn" id="reset">Reset</button>
+        <button class="btn" id="ChangeBg">Change the background</button>
+      </div>
+    </div>
+    <!-- Sound effects list -->
+    <!-- Squeeze the bubble -->
+    <audio src="./audio/bubble1.mp3" id="bubbleAudio1"></audio>
+    <audio src="./audio/bubble2.mp3" id="bubbleAudio2"></audio>
+    <audio src="./audio/bubble3.mp3" id="bubbleAudio3"></audio>
+    <!-- Undo -->
+    <audio src="./audio/undo.mp3" id="undoAudio"></audio>
+  </body>
+  <script src="./js/index.js"></script>
+</html>
